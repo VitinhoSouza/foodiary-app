@@ -7,13 +7,12 @@ import {
 } from "@expo-google-fonts/host-grotesk";
 import * as SplashScreen from "expo-splash-screen";
 
-import { StatusBar } from "expo-status-bar";
-import { StyleSheet, Text, View } from "react-native";
+import { View } from "react-native";
 
 import "./styles/global.css";
 import { useEffect } from "react";
-import { HomeHeader } from "./components/HomeHeader";
 import { SafeAreaProvider } from "react-native-safe-area-context";
+import { Home } from "./screens/Home";
 
 SplashScreen.preventAutoHideAsync();
 
@@ -38,7 +37,7 @@ export default function App() {
   return (
     <View className="flex-1 bg-white">
       <SafeAreaProvider>
-        <HomeHeader />
+        <Home />
       </SafeAreaProvider>
     </View>
   );
