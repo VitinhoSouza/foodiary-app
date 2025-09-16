@@ -160,7 +160,9 @@ export function MealsList() {
       data={meals}
       contentContainerStyle={{ paddingBottom: 80 + bottom + 16 }}
       keyExtractor={(meal) => meal.id}
-      ListEmptyComponent={<Text>Nenhuma refeição cadastrada...</Text>}
+      ListEmptyComponent={
+        <Text style={{ marginLeft: 16 }}>Nenhuma refeição cadastrada.</Text>
+      }
       ListHeaderComponent={
         <MealsListHeader
           currentDate={currentDate}
