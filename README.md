@@ -7,11 +7,9 @@ The app connects to the backend, which uses **Artificial Intelligence** to analy
 ---
 ## 📱 Demo
 
-https://github.com/user-attachments/assets/9aa45b3e-2a3e-4071-88c0-fb1e163748a2
+https://github.com/user-attachments/assets/063c93ba-069e-4eac-9a56-7c570fc12078
 
-https://github.com/user-attachments/assets/0d9f2d80-05b7-457f-bb64-853860af42bc 
 
-https://github.com/user-attachments/assets/8d07c4cc-86d7-4e69-979f-9ca23c4cddb7
 
 ---
 
