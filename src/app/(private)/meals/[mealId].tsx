@@ -64,7 +64,6 @@ export default function MealDetails() {
 
   return (
     <View className="flex-1 items-center justify-center">
-      <Button onPress={router.back}>Voltar</Button>
       <ScrollView className="flex-1 px-6 py-8 bg-white">
         {/* Cabeçalho */}
         <View className="flex-row items-center justify-between mb-6">
